@@ -1,7 +1,5 @@
 import telebot
-
-
-
+from enviroment_variables import API_KEY
 
 bot = telebot.TeleBot(API_KEY)
 
